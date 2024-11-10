@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tallies>
+  <mesh id="1">
+    <dimension>20 20 20</dimension>
+    <lower_left>-135.0 -114.99999999999999 0.0</lower_left>
+    <upper_right>135.0 114.99999999999999 260.0</upper_right>
+  </mesh>
+  <filter id="1" type="mesh">
+    <bins>1</bins>
+  </filter>
+  <filter id="2" type="universe">
+    <bins>254</bins>
+  </filter>
+  <filter id="3" type="universe">
+    <bins>227 241 228 243 230 231 245 218 233 247 219 234 248 235 221 249 222 250 237 251 224 252 239 225 171 185 213 200 186 214 198 201 202 216 175 176 204 190 205 191 206 165 193 180 208 166 194 181 209 210 196 197 212 170 217 236 229 240 223 244</bins>
+  </filter>
+  <filter id="4" type="distribcell">
+    <bins>6</bins>
+  </filter>
+  <filter id="5" type="distribcell">
+    <bins>21</bins>
+  </filter>
+  <filter id="6" type="distribcell">
+    <bins>36</bins>
+  </filter>
+  <filter id="7" type="surface">
+    <bins>98 99 100 101 102 103 1 7</bins>
+  </filter>
+  <filter id="8" type="surface">
+    <bins>2 3</bins>
+  </filter>
+  <filter id="9" type="energy">
+    <bins>0.0 500000.0 1000000.0</bins>
+  </filter>
+  <tally id="1" name="full_meshtally">
+    <filters>1</filters>
+    <scores>flux fission</scores>
+  </tally>
+  <tally id="2" name="core_averaged_region">
+    <filters>2</filters>
+    <scores>flux</scores>
+  </tally>
+  <tally id="3" name="fuel_assembly_fission">
+    <filters>3</filters>
+    <nuclides>U235</nuclides>
+    <scores>fission</scores>
+  </tally>
+  <tally id="4" name="fuel_1_pintally_fuel_mat_1">
+    <filters>4</filters>
+    <scores>heating</scores>
+  </tally>
+  <tally id="5" name="fuel_2_pintally_fuel_mat_2">
+    <filters>5</filters>
+    <scores>heating</scores>
+  </tally>
+  <tally id="6" name="fuel_3_pintally_fuel_mat_3">
+    <filters>6</filters>
+    <scores>heating</scores>
+  </tally>
+  <tally id="7" name="reactor_outer">
+    <filters>7</filters>
+    <scores>current</scores>
+  </tally>
+  <tally id="8" name="core_axial_planes">
+    <filters>8 9</filters>
+    <scores>current</scores>
+  </tally>
+</tallies>

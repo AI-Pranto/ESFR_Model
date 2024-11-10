@@ -1,0 +1,501 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="1" material="void" name="void" universe="1" />
+  <cell id="2" material="10" name="lower_refl_1_mat" region="1 -2" universe="2" />
+  <cell fill="2" id="3" name="lower_refl_1" region="1 -2" universe="9" />
+  <cell id="4" material="5" name="fuel_region_1_radial_0" region="2 -4 ~(-52 53 -54 -55 56 57) (-46 47 -48 -49 50 51)" universe="6" />
+  <cell id="5" material="4" name="fuel_region_1_radial_1" region="2 -4 ~(-46 47 -48 -49 50 51) (-16 17 -18 -19 20 21)" universe="6" />
+  <cell id="6" material="1" region="-9" universe="3" />
+  <cell id="7" material="5" region="9 -8" universe="3" />
+  <cell id="8" material="5" region="8 -70" universe="3" />
+  <cell id="9" material="4" region="70" universe="3" />
+  <cell id="10" material="4" name="fuel_region_1_lattice_outer" universe="5" />
+  <cell fill="4" id="11" name="fuel_region_1_lattice" region="2 -4 -52 53 -54 -55 56 57" universe="6" />
+  <cell fill="6" id="12" name="fuel_region_1" region="2 -4" universe="9" />
+  <cell id="13" material="12" name="na_plenum_1_mat" region="4 -6" universe="7" />
+  <cell fill="7" id="14" name="na_plenum_1" region="4 -6" universe="9" />
+  <cell id="15" material="11" name="gas_plenum_1_mat" region="6 -7" universe="8" />
+  <cell fill="8" id="16" name="gas_plenum_1" region="6 -7" universe="9" />
+  <cell id="17" material="10" name="lower_refl_2_mat" region="1 -2" universe="10" />
+  <cell fill="10" id="18" name="lower_refl_2" region="1 -2" universe="17" />
+  <cell id="19" material="5" name="fuel_region_2_radial_0" region="2 -4 ~(-52 53 -54 -55 56 57) (-46 47 -48 -49 50 51)" universe="14" />
+  <cell id="20" material="4" name="fuel_region_2_radial_1" region="2 -4 ~(-46 47 -48 -49 50 51) (-16 17 -18 -19 20 21)" universe="14" />
+  <cell id="21" material="2" region="-9" universe="11" />
+  <cell id="22" material="5" region="9 -8" universe="11" />
+  <cell id="23" material="5" region="8 -77" universe="11" />
+  <cell id="24" material="4" region="77" universe="11" />
+  <cell id="25" material="4" name="fuel_region_2_lattice_outer" universe="13" />
+  <cell fill="12" id="26" name="fuel_region_2_lattice" region="2 -4 -52 53 -54 -55 56 57" universe="14" />
+  <cell fill="14" id="27" name="fuel_region_2" region="2 -4" universe="17" />
+  <cell id="28" material="12" name="na_plenum_2_mat" region="4 -6" universe="15" />
+  <cell fill="15" id="29" name="na_plenum_2" region="4 -6" universe="17" />
+  <cell id="30" material="11" name="gas_plenum_2_mat" region="6 -7" universe="16" />
+  <cell fill="16" id="31" name="gas_plenum_2" region="6 -7" universe="17" />
+  <cell id="32" material="10" name="lower_refl_3_mat" region="1 -2" universe="18" />
+  <cell fill="18" id="33" name="lower_refl_3" region="1 -2" universe="25" />
+  <cell id="34" material="5" name="fuel_region_3_radial_0" region="2 -4 ~(-52 53 -54 -55 56 57) (-46 47 -48 -49 50 51)" universe="22" />
+  <cell id="35" material="4" name="fuel_region_3_radial_1" region="2 -4 ~(-46 47 -48 -49 50 51) (-16 17 -18 -19 20 21)" universe="22" />
+  <cell id="36" material="3" region="-9" universe="19" />
+  <cell id="37" material="5" region="9 -8" universe="19" />
+  <cell id="38" material="5" region="8 -84" universe="19" />
+  <cell id="39" material="4" region="84" universe="19" />
+  <cell id="40" material="4" name="fuel_region_3_lattice_outer" universe="21" />
+  <cell fill="20" id="41" name="fuel_region_3_lattice" region="2 -4 -52 53 -54 -55 56 57" universe="22" />
+  <cell fill="22" id="42" name="fuel_region_3" region="2 -4" universe="25" />
+  <cell id="43" material="12" name="na_plenum_3_mat" region="4 -6" universe="23" />
+  <cell fill="23" id="44" name="na_plenum_3" region="4 -6" universe="25" />
+  <cell id="45" material="11" name="gas_plenum_3_mat" region="6 -7" universe="24" />
+  <cell fill="24" id="46" name="gas_plenum_3" region="6 -7" universe="25" />
+  <cell id="47" material="14" name="cr_empty_mat" region="1 -3" universe="26" />
+  <cell fill="26" id="48" name="cr_empty" region="1 -3" universe="31" />
+  <cell id="49" material="5" name="cr_region_radial_0" region="3 -7 ~(-64 65 -66 -67 68 69) (-58 59 -60 -61 62 63)" universe="30" />
+  <cell id="50" material="4" name="cr_region_radial_1" region="3 -7 ~(-58 59 -60 -61 62 63) (-52 53 -54 -55 56 57)" universe="30" />
+  <cell id="51" material="5" name="cr_region_radial_2" region="3 -7 ~(-52 53 -54 -55 56 57) (-46 47 -48 -49 50 51)" universe="30" />
+  <cell id="52" material="4" name="cr_region_radial_3" region="3 -7 ~(-46 47 -48 -49 50 51) (-16 17 -18 -19 20 21)" universe="30" />
+  <cell id="53" material="7" region="-11" universe="27" />
+  <cell id="54" material="5" region="11 -10" universe="27" />
+  <cell id="55" material="5" region="10 -91" universe="27" />
+  <cell id="56" material="4" region="91" universe="27" />
+  <cell id="57" material="4" name="cr_region_lattice_outer" universe="29" />
+  <cell fill="28" id="58" name="cr_region_lattice" region="3 -7 -64 65 -66 -67 68 69" universe="30" />
+  <cell fill="30" id="59" name="cr_region" region="3 -7" universe="31" />
+  <cell id="60" material="9" name="refl_region_mat" region="1 -7" universe="32" />
+  <cell fill="32" id="61" name="refl_region" region="1 -7" universe="33" />
+  <cell id="62" material="13" name="shield_region_mat" region="1 -7" universe="34" />
+  <cell fill="34" id="63" name="shield_region" region="1 -7" universe="35" />
+  <cell fill="1" id="64" name="null" universe="37" />
+  <cell fill="1" id="65" name="null" universe="38" />
+  <cell fill="35" id="66" name="shielding" universe="39" />
+  <cell fill="35" id="67" name="shielding" universe="40" />
+  <cell fill="35" id="68" name="shielding" universe="41" />
+  <cell fill="35" id="69" name="shielding" universe="42" />
+  <cell fill="35" id="70" name="shielding" universe="43" />
+  <cell fill="1" id="71" name="null" universe="44" />
+  <cell fill="1" id="72" name="null" universe="45" />
+  <cell fill="1" id="73" name="null" universe="46" />
+  <cell fill="35" id="74" name="shielding" universe="47" />
+  <cell fill="35" id="75" name="shielding" universe="48" />
+  <cell fill="35" id="76" name="shielding" universe="49" />
+  <cell fill="35" id="77" name="shielding" universe="50" />
+  <cell fill="35" id="78" name="shielding" universe="51" />
+  <cell fill="1" id="79" name="null" universe="52" />
+  <cell fill="1" id="80" name="null" universe="53" />
+  <cell fill="1" id="81" name="null" universe="54" />
+  <cell fill="35" id="82" name="shielding" universe="55" />
+  <cell fill="35" id="83" name="shielding" universe="56" />
+  <cell fill="35" id="84" name="shielding" universe="57" />
+  <cell fill="35" id="85" name="shielding" universe="58" />
+  <cell fill="35" id="86" name="shielding" universe="59" />
+  <cell fill="1" id="87" name="null" universe="60" />
+  <cell fill="1" id="88" name="null" universe="61" />
+  <cell fill="1" id="89" name="null" universe="62" />
+  <cell fill="35" id="90" name="shielding" universe="63" />
+  <cell fill="35" id="91" name="shielding" universe="64" />
+  <cell fill="35" id="92" name="shielding" universe="65" />
+  <cell fill="35" id="93" name="shielding" universe="66" />
+  <cell fill="35" id="94" name="shielding" universe="67" />
+  <cell fill="1" id="95" name="null" universe="68" />
+  <cell fill="1" id="96" name="null" universe="69" />
+  <cell fill="1" id="97" name="null" universe="70" />
+  <cell fill="35" id="98" name="shielding" universe="71" />
+  <cell fill="35" id="99" name="shielding" universe="72" />
+  <cell fill="35" id="100" name="shielding" universe="73" />
+  <cell fill="35" id="101" name="shielding" universe="74" />
+  <cell fill="35" id="102" name="shielding" universe="75" />
+  <cell fill="1" id="103" name="null" universe="76" />
+  <cell fill="1" id="104" name="null" universe="77" />
+  <cell fill="1" id="105" name="null" universe="78" />
+  <cell fill="35" id="106" name="shielding" universe="79" />
+  <cell fill="35" id="107" name="shielding" universe="80" />
+  <cell fill="35" id="108" name="shielding" universe="81" />
+  <cell fill="35" id="109" name="shielding" universe="82" />
+  <cell fill="35" id="110" name="shielding" universe="83" />
+  <cell fill="1" id="111" name="null" universe="84" />
+  <cell fill="35" id="112" name="shielding" universe="85" />
+  <cell fill="35" id="113" name="shielding" universe="86" />
+  <cell fill="33" id="114" name="reflector" universe="87" />
+  <cell fill="33" id="115" name="reflector" universe="88" />
+  <cell fill="33" id="116" name="reflector" universe="89" />
+  <cell fill="33" id="117" name="reflector" universe="90" />
+  <cell fill="35" id="118" name="shielding" universe="91" />
+  <cell fill="35" id="119" name="shielding" universe="92" />
+  <cell fill="35" id="120" name="shielding" universe="93" />
+  <cell fill="33" id="121" name="reflector" universe="94" />
+  <cell fill="33" id="122" name="reflector" universe="95" />
+  <cell fill="33" id="123" name="reflector" universe="96" />
+  <cell fill="33" id="124" name="reflector" universe="97" />
+  <cell fill="35" id="125" name="shielding" universe="98" />
+  <cell fill="35" id="126" name="shielding" universe="99" />
+  <cell fill="35" id="127" name="shielding" universe="100" />
+  <cell fill="33" id="128" name="reflector" universe="101" />
+  <cell fill="33" id="129" name="reflector" universe="102" />
+  <cell fill="33" id="130" name="reflector" universe="103" />
+  <cell fill="33" id="131" name="reflector" universe="104" />
+  <cell fill="35" id="132" name="shielding" universe="105" />
+  <cell fill="35" id="133" name="shielding" universe="106" />
+  <cell fill="35" id="134" name="shielding" universe="107" />
+  <cell fill="33" id="135" name="reflector" universe="108" />
+  <cell fill="33" id="136" name="reflector" universe="109" />
+  <cell fill="33" id="137" name="reflector" universe="110" />
+  <cell fill="33" id="138" name="reflector" universe="111" />
+  <cell fill="35" id="139" name="shielding" universe="112" />
+  <cell fill="35" id="140" name="shielding" universe="113" />
+  <cell fill="35" id="141" name="shielding" universe="114" />
+  <cell fill="33" id="142" name="reflector" universe="115" />
+  <cell fill="33" id="143" name="reflector" universe="116" />
+  <cell fill="33" id="144" name="reflector" universe="117" />
+  <cell fill="33" id="145" name="reflector" universe="118" />
+  <cell fill="35" id="146" name="shielding" universe="119" />
+  <cell fill="35" id="147" name="shielding" universe="120" />
+  <cell fill="35" id="148" name="shielding" universe="121" />
+  <cell fill="33" id="149" name="reflector" universe="122" />
+  <cell fill="33" id="150" name="reflector" universe="123" />
+  <cell fill="33" id="151" name="reflector" universe="124" />
+  <cell fill="33" id="152" name="reflector" universe="125" />
+  <cell fill="35" id="153" name="shielding" universe="126" />
+  <cell fill="33" id="154" name="reflector" universe="127" />
+  <cell fill="33" id="155" name="reflector" universe="128" />
+  <cell fill="33" id="156" name="reflector" universe="129" />
+  <cell fill="33" id="157" name="reflector" universe="130" />
+  <cell fill="33" id="158" name="reflector" universe="131" />
+  <cell fill="33" id="159" name="reflector" universe="132" />
+  <cell fill="33" id="160" name="reflector" universe="133" />
+  <cell fill="33" id="161" name="reflector" universe="134" />
+  <cell fill="33" id="162" name="reflector" universe="135" />
+  <cell fill="33" id="163" name="reflector" universe="136" />
+  <cell fill="33" id="164" name="reflector" universe="137" />
+  <cell fill="33" id="165" name="reflector" universe="138" />
+  <cell fill="33" id="166" name="reflector" universe="139" />
+  <cell fill="33" id="167" name="reflector" universe="140" />
+  <cell fill="33" id="168" name="reflector" universe="141" />
+  <cell fill="33" id="169" name="reflector" universe="142" />
+  <cell fill="33" id="170" name="reflector" universe="143" />
+  <cell fill="33" id="171" name="reflector" universe="144" />
+  <cell fill="33" id="172" name="reflector" universe="145" />
+  <cell fill="33" id="173" name="reflector" universe="146" />
+  <cell fill="33" id="174" name="reflector" universe="147" />
+  <cell fill="33" id="175" name="reflector" universe="148" />
+  <cell fill="33" id="176" name="reflector" universe="149" />
+  <cell fill="33" id="177" name="reflector" universe="150" />
+  <cell fill="33" id="178" name="reflector" universe="151" />
+  <cell fill="33" id="179" name="reflector" universe="152" />
+  <cell fill="33" id="180" name="reflector" universe="153" />
+  <cell fill="33" id="181" name="reflector" universe="154" />
+  <cell fill="33" id="182" name="reflector" universe="155" />
+  <cell fill="33" id="183" name="reflector" universe="156" />
+  <cell fill="33" id="184" name="reflector" universe="157" />
+  <cell fill="33" id="185" name="reflector" universe="158" />
+  <cell fill="33" id="186" name="reflector" universe="159" />
+  <cell fill="33" id="187" name="reflector" universe="160" />
+  <cell fill="33" id="188" name="reflector" universe="161" />
+  <cell fill="33" id="189" name="reflector" universe="162" />
+  <cell fill="33" id="190" name="reflector" universe="163" />
+  <cell fill="33" id="191" name="reflector" universe="164" />
+  <cell fill="17" id="192" name="fuel_2" universe="165" />
+  <cell fill="17" id="193" name="fuel_2" universe="166" />
+  <cell fill="33" id="194" name="reflector" universe="167" />
+  <cell fill="33" id="195" name="reflector" universe="168" />
+  <cell fill="33" id="196" name="reflector" universe="169" />
+  <cell fill="17" id="197" name="fuel_2" universe="170" />
+  <cell fill="17" id="198" name="fuel_2" universe="171" />
+  <cell fill="33" id="199" name="reflector" universe="172" />
+  <cell fill="33" id="200" name="reflector" universe="173" />
+  <cell fill="33" id="201" name="reflector" universe="174" />
+  <cell fill="17" id="202" name="fuel_2" universe="175" />
+  <cell fill="17" id="203" name="fuel_2" universe="176" />
+  <cell fill="33" id="204" name="reflector" universe="177" />
+  <cell fill="33" id="205" name="reflector" universe="178" />
+  <cell fill="33" id="206" name="reflector" universe="179" />
+  <cell fill="17" id="207" name="fuel_2" universe="180" />
+  <cell fill="17" id="208" name="fuel_2" universe="181" />
+  <cell fill="33" id="209" name="reflector" universe="182" />
+  <cell fill="33" id="210" name="reflector" universe="183" />
+  <cell fill="33" id="211" name="reflector" universe="184" />
+  <cell fill="17" id="212" name="fuel_2" universe="185" />
+  <cell fill="17" id="213" name="fuel_2" universe="186" />
+  <cell fill="33" id="214" name="reflector" universe="187" />
+  <cell fill="33" id="215" name="reflector" universe="188" />
+  <cell fill="33" id="216" name="reflector" universe="189" />
+  <cell fill="17" id="217" name="fuel_2" universe="190" />
+  <cell fill="17" id="218" name="fuel_2" universe="191" />
+  <cell fill="33" id="219" name="reflector" universe="192" />
+  <cell fill="17" id="220" name="fuel_2" universe="193" />
+  <cell fill="17" id="221" name="fuel_2" universe="194" />
+  <cell fill="31" id="222" name="control_rod" universe="195" />
+  <cell fill="17" id="223" name="fuel_2" universe="196" />
+  <cell fill="17" id="224" name="fuel_2" universe="197" />
+  <cell fill="17" id="225" name="fuel_2" universe="198" />
+  <cell fill="31" id="226" name="control_rod" universe="199" />
+  <cell fill="17" id="227" name="fuel_2" universe="200" />
+  <cell fill="17" id="228" name="fuel_2" universe="201" />
+  <cell fill="17" id="229" name="fuel_2" universe="202" />
+  <cell fill="31" id="230" name="control_rod" universe="203" />
+  <cell fill="17" id="231" name="fuel_2" universe="204" />
+  <cell fill="17" id="232" name="fuel_2" universe="205" />
+  <cell fill="17" id="233" name="fuel_2" universe="206" />
+  <cell fill="31" id="234" name="control_rod" universe="207" />
+  <cell fill="17" id="235" name="fuel_2" universe="208" />
+  <cell fill="17" id="236" name="fuel_2" universe="209" />
+  <cell fill="17" id="237" name="fuel_2" universe="210" />
+  <cell fill="31" id="238" name="control_rod" universe="211" />
+  <cell fill="17" id="239" name="fuel_2" universe="212" />
+  <cell fill="17" id="240" name="fuel_2" universe="213" />
+  <cell fill="17" id="241" name="fuel_2" universe="214" />
+  <cell fill="31" id="242" name="control_rod" universe="215" />
+  <cell fill="17" id="243" name="fuel_2" universe="216" />
+  <cell fill="25" id="244" name="fuel_3" universe="217" />
+  <cell fill="9" id="245" name="fuel_1" universe="218" />
+  <cell fill="9" id="246" name="fuel_1" universe="219" />
+  <cell fill="33" id="247" name="reflector" universe="220" />
+  <cell fill="9" id="248" name="fuel_1" universe="221" />
+  <cell fill="9" id="249" name="fuel_1" universe="222" />
+  <cell fill="25" id="250" name="fuel_3" universe="223" />
+  <cell fill="9" id="251" name="fuel_1" universe="224" />
+  <cell fill="9" id="252" name="fuel_1" universe="225" />
+  <cell fill="33" id="253" name="reflector" universe="226" />
+  <cell fill="9" id="254" name="fuel_1" universe="227" />
+  <cell fill="9" id="255" name="fuel_1" universe="228" />
+  <cell fill="25" id="256" name="fuel_3" universe="229" />
+  <cell fill="9" id="257" name="fuel_1" universe="230" />
+  <cell fill="9" id="258" name="fuel_1" universe="231" />
+  <cell fill="33" id="259" name="reflector" universe="232" />
+  <cell fill="9" id="260" name="fuel_1" universe="233" />
+  <cell fill="9" id="261" name="fuel_1" universe="234" />
+  <cell fill="9" id="262" name="fuel_1" universe="235" />
+  <cell fill="25" id="263" name="fuel_3" universe="236" />
+  <cell fill="9" id="264" name="fuel_1" universe="237" />
+  <cell fill="31" id="265" name="control_rod" universe="238" />
+  <cell fill="9" id="266" name="fuel_1" universe="239" />
+  <cell fill="25" id="267" name="fuel_3" universe="240" />
+  <cell fill="9" id="268" name="fuel_1" universe="241" />
+  <cell fill="31" id="269" name="control_rod" universe="242" />
+  <cell fill="9" id="270" name="fuel_1" universe="243" />
+  <cell fill="25" id="271" name="fuel_3" universe="244" />
+  <cell fill="9" id="272" name="fuel_1" universe="245" />
+  <cell fill="31" id="273" name="control_rod" universe="246" />
+  <cell fill="9" id="274" name="fuel_1" universe="247" />
+  <cell fill="9" id="275" name="fuel_1" universe="248" />
+  <cell fill="9" id="276" name="fuel_1" universe="249" />
+  <cell fill="9" id="277" name="fuel_1" universe="250" />
+  <cell fill="9" id="278" name="fuel_1" universe="251" />
+  <cell fill="9" id="279" name="fuel_1" universe="252" />
+  <cell fill="31" id="280" name="control_rod" universe="253" />
+  <cell fill="36" id="281" name="reactor" region="-98 99 -100 101 102 -103 1 -7" universe="254" />
+  <hex_lattice id="4" n_rings="9" name="fuel_region_1_lattice">
+    <pitch>0.9079999999999999</pitch>
+    <outer>5</outer>
+    <center>0.0 0.0</center>
+    <universes>
+        3
+       3 3
+      3 3 3
+     3 3 3 3
+    3 3 3 3 3
+   3 3 3 3 3 3
+  3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3
+3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3
+3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3
+3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3
+3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3
+3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3
+3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3
+3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3
+3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3
+3 3 3 3 3 3 3 3 3
+ 3 3 3 3 3 3 3 3
+  3 3 3 3 3 3 3
+   3 3 3 3 3 3
+    3 3 3 3 3
+     3 3 3 3
+      3 3 3
+       3 3
+        3</universes>
+  </hex_lattice>
+  <hex_lattice id="12" n_rings="9" name="fuel_region_2_lattice">
+    <pitch>0.9079999999999999</pitch>
+    <outer>13</outer>
+    <center>0.0 0.0</center>
+    <universes>
+                11
+              11  11
+            11  11  11
+          11  11  11  11
+        11  11  11  11  11
+      11  11  11  11  11  11
+    11  11  11  11  11  11  11
+  11  11  11  11  11  11  11  11
+11  11  11  11  11  11  11  11  11
+  11  11  11  11  11  11  11  11
+11  11  11  11  11  11  11  11  11
+  11  11  11  11  11  11  11  11
+11  11  11  11  11  11  11  11  11
+  11  11  11  11  11  11  11  11
+11  11  11  11  11  11  11  11  11
+  11  11  11  11  11  11  11  11
+11  11  11  11  11  11  11  11  11
+  11  11  11  11  11  11  11  11
+11  11  11  11  11  11  11  11  11
+  11  11  11  11  11  11  11  11
+11  11  11  11  11  11  11  11  11
+  11  11  11  11  11  11  11  11
+11  11  11  11  11  11  11  11  11
+  11  11  11  11  11  11  11  11
+11  11  11  11  11  11  11  11  11
+  11  11  11  11  11  11  11  11
+    11  11  11  11  11  11  11
+      11  11  11  11  11  11
+        11  11  11  11  11
+          11  11  11  11
+            11  11  11
+              11  11
+                11</universes>
+  </hex_lattice>
+  <hex_lattice id="20" n_rings="9" name="fuel_region_3_lattice">
+    <pitch>0.9079999999999999</pitch>
+    <outer>21</outer>
+    <center>0.0 0.0</center>
+    <universes>
+                19
+              19  19
+            19  19  19
+          19  19  19  19
+        19  19  19  19  19
+      19  19  19  19  19  19
+    19  19  19  19  19  19  19
+  19  19  19  19  19  19  19  19
+19  19  19  19  19  19  19  19  19
+  19  19  19  19  19  19  19  19
+19  19  19  19  19  19  19  19  19
+  19  19  19  19  19  19  19  19
+19  19  19  19  19  19  19  19  19
+  19  19  19  19  19  19  19  19
+19  19  19  19  19  19  19  19  19
+  19  19  19  19  19  19  19  19
+19  19  19  19  19  19  19  19  19
+  19  19  19  19  19  19  19  19
+19  19  19  19  19  19  19  19  19
+  19  19  19  19  19  19  19  19
+19  19  19  19  19  19  19  19  19
+  19  19  19  19  19  19  19  19
+19  19  19  19  19  19  19  19  19
+  19  19  19  19  19  19  19  19
+19  19  19  19  19  19  19  19  19
+  19  19  19  19  19  19  19  19
+    19  19  19  19  19  19  19
+      19  19  19  19  19  19
+        19  19  19  19  19
+          19  19  19  19
+            19  19  19
+              19  19
+                19</universes>
+  </hex_lattice>
+  <hex_lattice id="28" n_rings="6" name="cr_region_lattice">
+    <pitch>1.243</pitch>
+    <outer>29</outer>
+    <center>0.0 0.0</center>
+    <universes>
+          27
+        27  27
+      27  27  27
+    27  27  27  27
+  27  27  27  27  27
+27  27  27  27  27  27
+  27  27  27  27  27
+27  27  27  27  27  27
+  27  27  27  27  27
+27  27  27  27  27  27
+  27  27  27  27  27
+27  27  27  27  27  27
+  27  27  27  27  27
+27  27  27  27  27  27
+  27  27  27  27  27
+27  27  27  27  27  27
+  27  27  27  27  27
+    27  27  27  27
+      27  27  27
+        27  27
+          27</universes>
+  </hex_lattice>
+  <hex_lattice id="36" n_rings="9" name="reactor_lattice" orientation="x">
+    <pitch>14.597999999999999</pitch>
+    <outer>1</outer>
+    <center>0.0 0.0</center>
+    <universes>
+                        69    70    71    72    73    74    75    76    77 
+                     68    113   114   115   116   117   118   119   120   78 
+                  67    112   151   152   153   154   155   156   157   121   79 
+               66    111   150   183   184   185   186   187   188   158   122   80 
+            65    110   149   182   209   210   211   212   213   189   159   123   81 
+         64    109   148   181   208   229   230   231   232   214   190   160   124   82 
+      63    108   147   180   207   228   243   244   245   233   215   191   161   125   83 
+   62    107   146   179   206   227   242   251   252   246   234   216   192   162   126   84 
+61    106   145   178   205   226   241   250   253   247   235   217   193   163   127   85    37 
+   60    105   144   177   204   225   240   249   248   236   218   194   164   128   86    38 
+      59    104   143   176   203   224   239   238   237   219   195   165   129   87    39 
+         58    103   142   175   202   223   222   221   220   196   166   130   88    40 
+            57    102   141   174   201   200   199   198   197   167   131   89    41 
+               56    101   140   173   172   171   170   169   168   132   90    42 
+                  55    100   139   138   137   136   135   134   133   91    43 
+                     54    99    98    97    96    95    94    93    92    44 
+                        53    52    51    50    49    48    47    46    45 </universes>
+  </hex_lattice>
+  <surface boundary="vacuum" coeffs="0.0" id="1" name="z0" type="z-plane" />
+  <surface coeffs="60.0" id="2" name="zlowcore" type="z-plane" />
+  <surface coeffs="140.0" id="3" name="zlowcore_cr" type="z-plane" />
+  <surface coeffs="140.0" id="4" name="ztopdf" type="z-plane" />
+  <surface coeffs="160.0" id="6" name="ztopnagp" type="z-plane" />
+  <surface boundary="vacuum" coeffs="260.0" id="7" name="ztopgp" type="z-plane" />
+  <surface coeffs="0.0 0.0 0.4" id="8" name="cladding_outer" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.348" id="9" name="cladding_inner" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.555" id="10" name="cladding_outer_cr" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.485" id="11" name="cladding_inner_cr" type="z-cylinder" />
+  <surface coeffs="7.299" id="16" name="sub_assembly" type="x-plane" />
+  <surface coeffs="-7.299" id="17" name="sub_assembly" type="x-plane" />
+  <surface coeffs="0.5773502691896257 1.0 0.0 8.428159229630158" id="18" name="sub_assembly" type="plane" />
+  <surface coeffs="-0.5773502691896257 1.0 0.0 8.428159229630158" id="19" name="sub_assembly" type="plane" />
+  <surface coeffs="-0.5773502691896257 1.0 0.0 -8.428159229630158" id="20" name="sub_assembly" type="plane" />
+  <surface coeffs="0.5773502691896257 1.0 0.0 -8.428159229630158" id="21" name="sub_assembly" type="plane" />
+  <surface coeffs="7.098999999999999" id="46" name="outer_duct_to_duct" type="x-plane" />
+  <surface coeffs="-7.098999999999999" id="47" name="outer_duct_to_duct" type="x-plane" />
+  <surface coeffs="0.5773502691896257 1.0 0.0 8.197219121954307" id="48" name="outer_duct_to_duct" type="plane" />
+  <surface coeffs="-0.5773502691896257 1.0 0.0 8.197219121954307" id="49" name="outer_duct_to_duct" type="plane" />
+  <surface coeffs="-0.5773502691896257 1.0 0.0 -8.197219121954307" id="50" name="outer_duct_to_duct" type="plane" />
+  <surface coeffs="0.5773502691896257 1.0 0.0 -8.197219121954307" id="51" name="outer_duct_to_duct" type="plane" />
+  <surface coeffs="6.7989999999999995" id="52" name="inner_duct_to_duct" type="x-plane" />
+  <surface coeffs="-6.7989999999999995" id="53" name="inner_duct_to_duct" type="x-plane" />
+  <surface coeffs="0.5773502691896257 1.0 0.0 7.850808960440531" id="54" name="inner_duct_to_duct" type="plane" />
+  <surface coeffs="-0.5773502691896257 1.0 0.0 7.850808960440531" id="55" name="inner_duct_to_duct" type="plane" />
+  <surface coeffs="-0.5773502691896257 1.0 0.0 -7.850808960440531" id="56" name="inner_duct_to_duct" type="plane" />
+  <surface coeffs="0.5773502691896257 1.0 0.0 -7.850808960440531" id="57" name="inner_duct_to_duct" type="plane" />
+  <surface coeffs="6.399000000000001" id="58" name="outer_duct_to_duct_cr" type="x-plane" />
+  <surface coeffs="-6.399000000000001" id="59" name="outer_duct_to_duct_cr" type="x-plane" />
+  <surface coeffs="0.5773502691896257 1.0 0.0 7.388928745088832" id="60" name="outer_duct_to_duct_cr" type="plane" />
+  <surface coeffs="-0.5773502691896257 1.0 0.0 7.388928745088832" id="61" name="outer_duct_to_duct_cr" type="plane" />
+  <surface coeffs="-0.5773502691896257 1.0 0.0 -7.388928745088832" id="62" name="outer_duct_to_duct_cr" type="plane" />
+  <surface coeffs="0.5773502691896257 1.0 0.0 -7.388928745088832" id="63" name="outer_duct_to_duct_cr" type="plane" />
+  <surface coeffs="6.099" id="64" name="inner_duct_to_duct_cr" type="x-plane" />
+  <surface coeffs="-6.099" id="65" name="inner_duct_to_duct_cr" type="x-plane" />
+  <surface coeffs="0.5773502691896257 1.0 0.0 7.042518583575056" id="66" name="inner_duct_to_duct_cr" type="plane" />
+  <surface coeffs="-0.5773502691896257 1.0 0.0 7.042518583575056" id="67" name="inner_duct_to_duct_cr" type="plane" />
+  <surface coeffs="-0.5773502691896257 1.0 0.0 -7.042518583575056" id="68" name="inner_duct_to_duct_cr" type="plane" />
+  <surface coeffs="0.5773502691896257 1.0 0.0 -7.042518583575056" id="69" name="inner_duct_to_duct_cr" type="plane" />
+  <surface coeffs="0.0 0.0 0.40333357459590413" id="70" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.40333357459590413" id="77" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.40333357459590413" id="84" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.5590421892663696" id="91" type="z-cylinder" />
+  <surface boundary="vacuum" coeffs="113.78014960000712" id="98" type="y-plane" />
+  <surface boundary="vacuum" coeffs="-113.78014960000712" id="99" type="y-plane" />
+  <surface boundary="vacuum" coeffs="1.7320508075688772 1.0 0.0 227.56029920001424" id="100" type="plane" />
+  <surface boundary="vacuum" coeffs="-1.7320508075688772 1.0 0.0 -227.56029920001424" id="101" type="plane" />
+  <surface boundary="vacuum" coeffs="1.7320508075688772 1.0 0.0 -227.56029920001424" id="102" type="plane" />
+  <surface boundary="vacuum" coeffs="-1.7320508075688772 1.0 0.0 227.56029920001424" id="103" type="plane" />
+</geometry>

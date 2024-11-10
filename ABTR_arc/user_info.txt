@@ -1,0 +1,15 @@
+                 ************************************
+                 *      PYARC Version 2.5.0         *
+                 * Released date -  2/5/2024       *
+                 *     Contact: pyarc@anl.gov       *
+                 ************************************
+************************************ ERROR MESSAGES *************************************
+*********************************** WARNING MESSAGES ************************************
+WARNING: Homogenization of region 'sub_assembly(fuel_region_1)' is performed, and undefined region outside of pin are filled up with 'outer' material
+WARNING: Homogenization of region 'sub_assembly(fuel_region_2)' is performed, and undefined region outside of pin are filled up with 'outer' material
+WARNING: Homogenization of region 'sub_assembly(fuel_region_3)' is performed, and undefined region outside of pin are filled up with 'outer' material
+WARNING: Homogenization of region 'sub_assembly(CR_region)' is performed, and undefined region outside of pin are filled up with 'outer' material
+WARNING: Extrapolated boundary condition is being replaced with vacuum for OpenMC.
+WARNING: Extrapolated boundary condition is being replaced with vacuum for OpenMC.
+********************************* INFORMATION MESSAGES **********************************
+*********************************** END OF MESSAGES *************************************
